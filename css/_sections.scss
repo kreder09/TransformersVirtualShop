@@ -1,0 +1,47 @@
+.first-section {
+  background: url(../images/1section-bg.jpg);
+  background-size: cover;
+  padding: 100px 0 40px 0;
+  background-attachment: fixed;
+  .optimus{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.sec-section {
+  background: url(../images/2section-bg2.jpg);
+  background-size: cover;
+  padding: 40px 0;
+  background-attachment: fixed;
+
+}
+
+.divisor {
+  width: 100%;
+  height: 5px;
+  background: $dark;
+}
+.errscreen{
+  background: rgb(0,7,63);
+  background: radial-gradient(circle, rgba(0,7,63,1) 0%, rgba(0,0,24,1) 50%, rgba(0,0,0,1) 100%);  
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  p{
+    margin: 40px 0;
+  }
+  a{
+    display: flex;
+  }
+  img{
+    max-width: 200px;
+  }
+  .img{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+    animation: floatY 10s ease-in-out infinite;
+  }
+}
