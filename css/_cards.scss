@@ -1,0 +1,142 @@
+.card-title {
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+
+  .title {
+    margin: 0px;
+  }
+}
+
+.card-section {
+  background: url(../images/bg-sale4.jpg );
+  padding: 0 0 90px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  @media screen and (max-width: 990px) {
+    flex-wrap: wrap;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.card-products {
+  background: url(../images/bg-products.jpg);
+  padding: 0 0 55px 0;
+
+}
+
+.card-section-wrap {
+  flex-wrap: wrap;
+  padding: 0 80px;
+  @media screen and (max-width: 500px) {
+    padding: 0 20px;
+  }
+}
+
+.see-more {
+  display: flex;
+  margin: 55px 80px 0 80px;
+  flex-direction: row-reverse;
+}
+
+
+.card,
+.card-product {
+  text-align: center;
+  border-radius: 10px;
+  background-color: $card;
+  transition: ease .3s;
+  filter: drop-shadow(5px 5px 10px #000);
+  .caro{
+    color: red;
+  }
+  .barato{
+    color: green;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  h2 {
+    color: #333333;
+  }
+
+  p {
+    color: #666666;
+    margin: 10px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+}
+
+.card {
+  width: 270px;
+  @media screen and (max-width: 500px) {
+    max-width: 250px;
+  }
+
+  h2 {
+    margin: 10px;
+  }
+}
+
+.card-product {
+  width: 200px;
+
+  @media screen and (max-width: 500px) {
+    width: 250px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 5px;
+  }
+
+  p {
+    font-size: 22px;
+    margin: 10px;
+  }
+}
+
+.add-to-cart {
+  background-color: #969696;
+  min-width: 100px;
+  min-height: 45px;
+  padding: 0 30px 0 30px;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  color: $white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  line-height: normal;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: .3s ease-in-out;
+  &:hover{
+    background-color: #fffefe;
+    color: $main
+  }
+  .cart-icon:hover{
+    color: $main;
+  }
+}
+.desc-card{
+  margin: 0 10px;
+}
